@@ -1,5 +1,7 @@
 
+let userName = prompt('What is your name?');
 
+alert("Welcome to the site, " + userName)
 
 function questionOne() {
     let answer = prompt('Was I born in the state of Iowa? y/n');
@@ -56,5 +58,5 @@ function questionFive() {
     } else {
         // console.log("Try again!")
         alert('Try again!')
-    }
+    
 }
