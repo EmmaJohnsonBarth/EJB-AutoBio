@@ -3,3 +3,85 @@
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
 }
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: darkgreen;
+    color: white;
+    height: 150px;
+}
+
+nav ul {
+    padding: auto;
+    display: inline;
+    margin-top: 55px;
+}
+
+li {
+    display: inline;
+    background-color: beige;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgb(52, 66, 66);
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: larger;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+/*id and class
+id has hashtag
+class needs a period
+id should be used only once*/
+
+#anotherStyle {
+    background-color: orange;
+    font-size: 53px;
+    color: azure;
+}
+
+.more-styles {
+    background-color: rgb(80,0,34);
+}
+
+p{
+    font-size: 20px;
+    background-color: rgb(44, 39, 34);
+}
