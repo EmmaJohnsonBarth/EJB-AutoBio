@@ -10,6 +10,7 @@ console.log("userAnswer: ", userAnswer);
 //clean up the input
 //toLowerCase for user input validation
 let cleanUserAnswer = userAnswer.trim().toLowerCase();
+
 //trim() removes spaces
 //toLowerCase() puts into lower case
 console.log("Clean user answer: ", cleanUserAnswer)
@@ -40,6 +41,7 @@ console.log(emptyArray)
 let quizAnswers = ['c', 'a', 'd', 'c', 'e', 'c'];
 
 //nested arrays:
+//AKA matrixes
 
 let createNested = [['a', [], [{}, 'a']], 'd'];
 
@@ -48,4 +50,8 @@ console.log(createNested)
 //data persistance - storing user data
 
 //nested arrays
-//what goes in an array, how to access
+//what goes in an array, how to access things in arrays
+
+let myArrayOne = ['a', 'x', 'c']
+
+//for example myArrayOne[0] is 'a'
