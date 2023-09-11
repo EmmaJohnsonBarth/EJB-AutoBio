@@ -1,5 +1,7 @@
 
-let userName = prompt('What is your name?');
+'use strict';
+
+let userName = prompt('What is your name?', 'Bob');
 
 alert("Welcome to the site, " + userName)
 
@@ -11,7 +13,7 @@ function questionOne() {
         questionTwo();
     } else {
         // console.log("Try again!")
-        alert("Try again!");
+        alert('Try again!')
     }
 }
 
@@ -23,7 +25,7 @@ function questionTwo() {
         questionThree();
     } else {
         // console.log("Try again!")
-        alert('Try again!');
+        alert('Try again!')
     }
 }
 
@@ -54,9 +56,9 @@ function questionFive() {
     let answer = prompt('Did I attend Cornell College? y/n');
     if (answer.toLowerCase() === 'y') {
         // console.log("Good job!)
-        alert('Good job!')
+        alert('Good job, ' + userName + '!')
     } else {
         // console.log("Try again!")
         alert('Try again!')
-    
+    }
 }
