@@ -70,12 +70,17 @@ h2 {
     font-size: 18px;
 }
 
+p {
+    font-size: 20px;
+    background-color: rgb(44, 39, 34);
+    margin: 50px;
+}
 /*id and class
 id has hashtag
 class needs a period
 id should be used only once*/
 
-#anotherStyle {
+/* #anotherStyle {
     background-color: orange;
     font-size: 53px;
     color: azure;
@@ -83,10 +88,5 @@ id should be used only once*/
 
 .more-styles {
     background-color: rgb(80, 0, 34);
-}
+} */
 
-p {
-    font-size: 20px;
-    background-color: rgb(44, 39, 34);
-    margin: 50px;
-}
